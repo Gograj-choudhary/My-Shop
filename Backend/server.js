@@ -39,6 +39,9 @@ app.use('/api/v1/customer', customerRoutes);
 app.use('/api/v1/admin', adminRoutes);
 app.use('/api/v1/auth', authRoutes);
 
+app.get("/health", (req, res) => {
+  res.status(200).send({ status: "ok" ,message : "server is healthy", timeStamp : new Date().toLocaleDateString()});
+})
 
 // Start server
 const PORT = process.env.PORT || 3000;
