@@ -6,7 +6,7 @@ services:
     container_name: myshop-mysql
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: Gograj@2211
+      MYSQL_ROOT_PASSWORD: 'Enter your password'
       MYSQL_DATABASE: myshop
     ports:
       - "3306:3306"
