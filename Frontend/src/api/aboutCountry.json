@@ -1,0 +1,62 @@
+[
+  {  
+    "id": 1,
+    "name": "United States",
+    "capital": "Washington, D.C.",
+    "population": 340,
+    "gdp": 26.7,
+    "officialLanguage": "English",
+    "area": 9.83,
+    "flag": "https://flagcdn.com/us.svg"
+  },
+  {
+    "id": 2,
+    "name": "China",
+    "capital": "Beijing",
+    "population": 1420,
+    "gdp": 17.7,
+    "officialLanguage": "Mandarin Chinese",
+    "area": 9.60,
+    "flag": "https://flagcdn.com/cn.svg"
+  },
+  {
+    "id": 3,
+    "name": "India",
+    "capital": "New Delhi",
+    "population": 1410,
+    "gdp": 3.73,
+    "officialLanguage": "Hindi, English",
+    "area": 3.29,
+    "flag": "https://flagcdn.com/in.svg"
+  },
+  {
+    "id": 4,
+    "name": "Germany",
+    "capital": "Berlin",
+    "population": 84,
+    "gdp": 4.4,
+    "officialLanguage": "German",
+    "area": 0.36,
+    "flag": "https://flagcdn.com/de.svg"
+  },
+  {
+    "id": 5,
+    "name": "Japan",
+    "capital": "Tokyo",
+    "population": 125,
+    "gdp": 4.3,
+    "officialLanguage": "Japanese",
+    "area": 0.38,
+    "flag": "https://flagcdn.com/jp.svg"
+  },
+  {
+    "id": 6,
+    "name": "United Kingdom",
+    "capital": "London",
+    "population": 68,
+    "gdp": 3.2,
+    "officialLanguage": "English",
+    "area": 0.24,
+    "flag": "https://flagcdn.com/gb.svg"
+  }
+]

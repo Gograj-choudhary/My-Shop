@@ -1,0 +1,20 @@
+[
+  {
+    "icon": "FaInstagram",
+    "title": "Instagram",
+    "details": "",
+    "link" : ""
+  },
+  {
+    "icon": "FaLinkedin",
+    "title": "LinkedIn",
+    "details": "",
+    "link" : ""
+  },
+  {
+    "icon": "TbMailPlus",
+    "title": "Mail us",
+    "details": "",
+    "link" : ""
+  }
+]
