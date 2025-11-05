@@ -1,4 +1,4 @@
-# My-Shop E-Commerce Platform
+# AI-Powered E-Commerce Platform
 
 A modern full-stack e-commerce platform with AI-powered product search capabilities, built with React and Node.js.
 
