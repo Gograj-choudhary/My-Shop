@@ -23,6 +23,7 @@ export const AllCartItems = () => {
   const [step, setStep] = useState(1);
 
   const [address, setAddress] = useState({ name: "", phone: "", street: "", city: "", pincode: "" });
+  console.log("Address State:", address);
   const [paymentMethod, setPaymentMethod] = useState("");
 
   const loadCart = () => {
@@ -63,7 +64,7 @@ export const AllCartItems = () => {
       onSuccess: (res) => {
         setStep(4);
         setCart([]);
-        setAddress({ name: "", phone: "", street: "", city: "", pincode: "" });
+        // setAddress({ name: "", phone: "", street: "", city: "", pincode: "" });
       },
       onError: (err) => {
         console.error("Order Error:", err);
@@ -125,7 +126,7 @@ export const AllCartItems = () => {
           </div>
         </div>
 
-        {/* STEP 1 - CART */}
+        
         {step === 1 && (
           <>
             <h1 
@@ -297,7 +298,7 @@ export const AllCartItems = () => {
           </>
         )}
 
-        {/* STEP 2 - ADDRESS */}
+       
         {step === 2 && (
           <div>
             <h1 
@@ -385,7 +386,7 @@ export const AllCartItems = () => {
           </div>
         )}
 
-        {/* STEP 3 - PAYMENT */}
+       
         {step === 3 && (
           <div>
             <h1 
@@ -472,13 +473,13 @@ export const AllCartItems = () => {
                   }
                 }}
               >
-                Place Order 🎉
+                Place Order 
               </button>
             </div>
           </div>
         )}
 
-        {/* STEP 4 - FINAL CHECKOUT */}
+       
         {step === 4 && (
           <div 
             className="text-center py-16 rounded-2xl backdrop-blur-sm border"
@@ -495,11 +496,12 @@ export const AllCartItems = () => {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
               </svg>
             </div>
+            
             <h1 
               className="text-4xl font-bold mb-4"
               style={{ color: `#${headingText}` }}
             >
-              Order Confirmed! 🎉
+              Order Confirmed! 
             </h1>
             <p className="text-xl mb-6" style={{ color: `#${text}` }}>Thank you for your purchase!</p>
             <div className="max-w-md mx-auto p-6 rounded-xl mb-8" style={{ backgroundColor: `#${bg}` }}>

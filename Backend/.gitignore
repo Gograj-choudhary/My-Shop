@@ -1,2 +1,12 @@
 .env
 node_modules
+adminController1.js
+aiController1.js
+authController1.js
+customerController1.js
+
+Admin1.js
+Customer1.js
+Product1.js
+
+db1.js
