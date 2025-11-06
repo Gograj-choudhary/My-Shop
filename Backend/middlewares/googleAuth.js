@@ -2,7 +2,7 @@ require('dotenv').config();
 const passport = require("passport");
 const GoogleStrategy = require("passport-google-oauth20").Strategy;
 const jwt = require("jsonwebtoken");
-const { Customer } = require('../models');
+const { Customer } = require('../models/Customer');
 
 
 const GOOGLE_CLIENT_ID = process.env.GOOGLE_CLIENT_ID;
